@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-10-05T13:47:06.633Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="eKG3LomgtdDRdXYOGMUY" version="22.0.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-05T14:10:27.670Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="mOM_AUT_wzeEb9aG2EAs" version="22.0.2" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1050" dy="540" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -72,7 +72,7 @@
         <mxCell id="k3k_9TDSbaum7FikCewz-46" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="k3k_9TDSbaum7FikCewz-28" target="k3k_9TDSbaum7FikCewz-29">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="k3k_9TDSbaum7FikCewz-28" value="上地基" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="k3k_9TDSbaum7FikCewz-28" value="事件上地基" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="40" y="380" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="k3k_9TDSbaum7FikCewz-38" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="k3k_9TDSbaum7FikCewz-29">
@@ -86,7 +86,7 @@
         <mxCell id="k3k_9TDSbaum7FikCewz-29" value="进入事件循环" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="40" y="440" width="120" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="k3k_9TDSbaum7FikCewz-30" value="struct event *ev = event_new(base,lfd,EV_READ | EV_PERSIST,callback,NUL);" style="text;strokeColor=none;align=left;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="k3k_9TDSbaum7FikCewz-30" value="struct event *ev = event_new(base,lfd,EV_READ | EV_PERSIST,callback,base);" style="text;strokeColor=none;align=left;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="260" y="320" width="610" height="30" as="geometry" />
         </mxCell>
         <mxCell id="k3k_9TDSbaum7FikCewz-36" value="event_add(ev,NULL);" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
@@ -109,8 +109,25 @@
         <mxCell id="k3k_9TDSbaum7FikCewz-42" value="释放地基还有事件" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="180" y="480" width="60" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="k3k_9TDSbaum7FikCewz-55" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="k3k_9TDSbaum7FikCewz-49" target="k3k_9TDSbaum7FikCewz-54">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="k3k_9TDSbaum7FikCewz-49" value="event_free(ev); event_base_free(base);" style="text;strokeColor=none;align=left;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="260" y="500" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="k3k_9TDSbaum7FikCewz-52" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="k3k_9TDSbaum7FikCewz-51" target="k3k_9TDSbaum7FikCewz-53">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="330" y="603" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="k3k_9TDSbaum7FikCewz-51" value="callback函数定义：&lt;br&gt;1.接受新的连接&lt;br&gt;2.创建新的事件&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;3 .读客户端数据对应的回调函数" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="30" y="590" width="200" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="k3k_9TDSbaum7FikCewz-53" value="void callback(evutil_socket_t fd, short events, void *arg){}" style="text;strokeColor=none;align=left;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Times New Roman;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="320" y="593.75" width="380" height="62.5" as="geometry" />
+        </mxCell>
+        <mxCell id="k3k_9TDSbaum7FikCewz-54" value="event_free(ev); event_base_free(base);" style="text;strokeColor=none;align=left;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="420" y="500" width="80" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
