@@ -1,57 +1,9 @@
-<mxfile host="app.diagrams.net" modified="2023-11-01T00:55:22.891Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36 Edg/113.0.1774.42" etag="zgbcpJ-HzdgGUAkXdlzK" version="22.0.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-01T03:19:13.141Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="7CamTycBlXPq9v2IjaLY" version="22.0.8" type="github">
   <diagram name="第 1 页" id="BEt9wAvezw7SiNTLnkMm">
-    <mxGraphModel dx="1323" dy="752" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="none" math="0" shadow="0">
+    <mxGraphModel dx="1050" dy="570" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="Hpm4Z9w8qwk9Q-eu_37M-6" value="templete&amp;lt;class T&amp;gt;&lt;br&gt;threadPool" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="60" y="60" width="220" height="330" as="geometry" />
-        </mxCell>
-        <mxCell id="Hpm4Z9w8qwk9Q-eu_37M-7" value="+ field: type&lt;br&gt;private:&lt;br&gt;thread_array:pthread_t*&lt;br&gt;m_thread_number: int&lt;br&gt;m_max_requests:int&lt;br&gt;m_worklqueue: queue&amp;lt;T*&amp;gt;&lt;br&gt;m_queuelocker: locker // 互斥锁&lt;br&gt;m_queuestat:sem //信号量&lt;br&gt;m_stop: bool // 是否结束线程" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="Hpm4Z9w8qwk9Q-eu_37M-6" vertex="1">
-          <mxGeometry y="40" width="220" height="140" as="geometry" />
-        </mxCell>
-        <mxCell id="Hpm4Z9w8qwk9Q-eu_37M-8" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" parent="Hpm4Z9w8qwk9Q-eu_37M-6" vertex="1">
-          <mxGeometry y="180" width="220" height="10" as="geometry" />
-        </mxCell>
-        <mxCell id="Hpm4Z9w8qwk9Q-eu_37M-9" value="+ method(type): type&lt;br&gt;public:&lt;br&gt;threadPool(int,int):&lt;br&gt;~threadPool():&lt;br&gt;append(T*): bool&amp;nbsp; // 添加任务&lt;br&gt;private:&lt;br&gt;worker(void*) : static void*" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="Hpm4Z9w8qwk9Q-eu_37M-6" vertex="1">
-          <mxGeometry y="190" width="220" height="140" as="geometry" />
-        </mxCell>
-        <mxCell id="a4LSaHBgzAOVFozFGlwz-5" value="locker // 互斥锁" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="390" y="70" width="160" height="86" as="geometry" />
-        </mxCell>
-        <mxCell id="a4LSaHBgzAOVFozFGlwz-6" value="+ field: type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="a4LSaHBgzAOVFozFGlwz-5" vertex="1">
-          <mxGeometry y="26" width="160" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="a4LSaHBgzAOVFozFGlwz-7" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" parent="a4LSaHBgzAOVFozFGlwz-5" vertex="1">
-          <mxGeometry y="52" width="160" height="8" as="geometry" />
-        </mxCell>
-        <mxCell id="a4LSaHBgzAOVFozFGlwz-8" value="+ method(type): type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="a4LSaHBgzAOVFozFGlwz-5" vertex="1">
-          <mxGeometry y="60" width="160" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="a4LSaHBgzAOVFozFGlwz-22" value="sem // 信号量&lt;br&gt;" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="390" y="240" width="160" height="86" as="geometry" />
-        </mxCell>
-        <mxCell id="a4LSaHBgzAOVFozFGlwz-23" value="+ field: type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="a4LSaHBgzAOVFozFGlwz-22" vertex="1">
-          <mxGeometry y="26" width="160" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="a4LSaHBgzAOVFozFGlwz-24" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" parent="a4LSaHBgzAOVFozFGlwz-22" vertex="1">
-          <mxGeometry y="52" width="160" height="8" as="geometry" />
-        </mxCell>
-        <mxCell id="a4LSaHBgzAOVFozFGlwz-25" value="+ method(type): type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="a4LSaHBgzAOVFozFGlwz-22" vertex="1">
-          <mxGeometry y="60" width="160" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="YXu9uK8HiYl8hEUS49Cs-1" value="http_conn" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="60" y="480" width="260" height="440" as="geometry" />
-        </mxCell>
-        <mxCell id="YXu9uK8HiYl8hEUS49Cs-2" value="+ field: type&lt;br&gt;public:&lt;br&gt;METHOD :enum&lt;br&gt;CHECK_STATE :enum // 状态机&lt;br&gt;HTTP_CODE: enum&lt;br&gt;m_epollfd : static int&lt;br&gt;m_user_count : static int&lt;br&gt;READ_BUFFER_SIZE : static const int // 缓冲区大小&lt;br&gt;WRITE_BUFFER_SIZE: static const int&lt;br&gt;private:&lt;br&gt;m_sockfd : int&lt;br&gt;m_address : sockaddr_in&lt;br&gt;m_read_index : int // 标识读入最后一个字节的下一个字节" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="YXu9uK8HiYl8hEUS49Cs-1" vertex="1">
-          <mxGeometry y="26" width="260" height="234" as="geometry" />
-        </mxCell>
-        <mxCell id="YXu9uK8HiYl8hEUS49Cs-3" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" parent="YXu9uK8HiYl8hEUS49Cs-1" vertex="1">
-          <mxGeometry y="260" width="260" height="8" as="geometry" />
-        </mxCell>
-        <mxCell id="YXu9uK8HiYl8hEUS49Cs-4" value="+ method(type): type&lt;br&gt;process : void&amp;nbsp; // 解析http请求&lt;br&gt;do_request : http_conn::HTTP_CODE&lt;br&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="YXu9uK8HiYl8hEUS49Cs-1" vertex="1">
-          <mxGeometry y="268" width="260" height="172" as="geometry" />
-        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
