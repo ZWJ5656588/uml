@@ -209,7 +209,7 @@
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="q3CgZbgskJkxdvHQwaNi-1" value="&lt;span style=&quot;font-family: &amp;quot;Times New Roman&amp;quot;;&quot;&gt;无人机悬停获取出示视频V&lt;/span&gt;&lt;sub style=&quot;font-family: &amp;quot;Times New Roman&amp;quot;;&quot;&gt;1&lt;/sub&gt;&lt;font style=&quot;font-family: &amp;quot;Times New Roman&amp;quot;;&quot; data-translating=&quot;true&quot; class=&quot;__Cici__translate__&quot;&gt;&lt;font style=&quot;display: inline-block;&quot; class=&quot;__Cici_translate_loading__&quot;&gt;&lt;i&gt;&lt;/i&gt;&lt;/font&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="201" y="23" width="120" height="60" as="geometry" />
+          <mxGeometry x="185" y="23" width="136" height="41" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
