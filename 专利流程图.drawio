@@ -208,8 +208,14 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="T0FnHzVqO31OrTYo7rl1-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="q3CgZbgskJkxdvHQwaNi-1" target="T0FnHzVqO31OrTYo7rl1-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="q3CgZbgskJkxdvHQwaNi-1" value="&lt;span style=&quot;font-family: &amp;quot;Times New Roman&amp;quot;;&quot;&gt;无人机悬停获取出示视频V&lt;/span&gt;&lt;sub style=&quot;font-family: &amp;quot;Times New Roman&amp;quot;;&quot;&gt;1&lt;/sub&gt;&lt;font style=&quot;font-family: &amp;quot;Times New Roman&amp;quot;;&quot; data-translating=&quot;true&quot; class=&quot;__Cici__translate__&quot;&gt;&lt;font style=&quot;display: inline-block;&quot; class=&quot;__Cici_translate_loading__&quot;&gt;&lt;i&gt;&lt;/i&gt;&lt;/font&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="185" y="23" width="136" height="41" as="geometry" />
+        </mxCell>
+        <mxCell id="T0FnHzVqO31OrTYo7rl1-1" value="&lt;font face=&quot;Times New Roman&quot;&gt;在V&lt;sub&gt;1&lt;/sub&gt;中获取待测结构外的背景作为参考区域视频V&lt;sub&gt;2&lt;/sub&gt;&lt;font class=&quot;__Cici__translate__ __Cici_translate_similar_text_content__&quot;&gt;&lt;font style=&quot;display: none;&quot; class=&quot;__Cici_translate_origin_node__&quot;&gt;在V&lt;sub data-text-content=&quot;1&quot;&gt;1&lt;/sub&gt;中获取静止背景作为参考区域视频V&lt;sub data-text-content=&quot;2&quot;&gt;2&lt;/sub&gt;&lt;/font&gt; &lt;font style=&quot;display: inline-block;&quot; class=&quot;__Cici_translate_translated_inject_node__&quot;&gt;&lt;span&gt;在V1中获取静止背景作为参考区域视频V2&lt;/span&gt;&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="127" y="94" width="252" height="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
