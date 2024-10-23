@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" version="24.8.1">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" version="24.8.1" pages="2">
   <diagram name="Page-1" id="by-MmvdDjZqGy2qgRy-2">
-    <mxGraphModel dx="1615" dy="877" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="1">
+    <mxGraphModel grid="0" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="1">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -96,6 +96,108 @@
           <mxGeometry x="573" y="1028" width="126.08" height="38.69" as="geometry" />
         </mxCell>
         <mxCell id="A2SrDBhCzwY3KyNIF4se-92" value="&lt;font face=&quot;Times New Roman&quot;&gt;根据选取的参考区域对V&lt;sub style=&quot;&quot;&gt;3&lt;/sub&gt;进行光流补偿算法&lt;font class=&quot;__Cici__translate__ __Cici_translate_similar_text_content__&quot;&gt;&lt;font style=&quot;display: none;&quot; class=&quot;__Cici_translate_origin_node__&quot;&gt;根据选取的参考区域对V&lt;sub data-text-content=&quot;3&quot; style=&quot;&quot;&gt;3&lt;/sub&gt;进行光流补偿算法&lt;/font&gt; &lt;font style=&quot;display: inline-block;&quot; class=&quot;__Cici_translate_translated_inject_node__&quot;&gt;&lt;span&gt;根据选取的参考区域对V3进行光流补偿算法&lt;/span&gt;&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;&lt;div&gt;&lt;font face=&quot;cYyLVqvPSQjDSF9pOBt-&quot;&gt;得到消除相机运动的亚像素噪声的视频&lt;/font&gt;&lt;font face=&quot;Times New Roman&quot;&gt;V&lt;sub style=&quot;&quot;&gt;4&lt;/sub&gt;&lt;/font&gt;&lt;font class=&quot;__Cici__translate__ __Cici_translate_similar_text_content__&quot;&gt;&lt;font style=&quot;display: none;&quot; class=&quot;__Cici_translate_origin_node__&quot;&gt;&lt;font data-text-content=&quot;得到消除相机运动的亚像素噪声的视频&quot; face=&quot;cYyLVqvPSQjDSF9pOBt-&quot;&gt;得到消除相机运动的亚像素噪声的视频&lt;/font&gt;&lt;font data-text-content=&quot;V4&quot; face=&quot;Times New Roman&quot;&gt;V&lt;sub style=&quot;&quot;&gt;4&lt;/sub&gt;&lt;/font&gt;&lt;/font&gt; &lt;font style=&quot;display: inline-block;&quot; class=&quot;__Cici_translate_translated_inject_node__&quot;&gt;&lt;span&gt;得到消除相机运动的亚像素噪声的视频V4&lt;/span&gt;&lt;/font&gt;&lt;/font&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="180" y="712" width="253" height="62" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="u62HE20p71KsQuNjrwQy" name="Page-2">
+    <mxGraphModel dx="1050" dy="570" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="jlvIRvkufFYWc-7_8W2d-1" value="通过多个测点的数据进行傅里叶变换将时域数据转换到频域并进行模态分析&lt;font class=&quot;__Cici__translate__ __Cici_translate_similar_text_content__&quot;&gt;&lt;font style=&quot;display: none;&quot; class=&quot;__Cici_translate_origin_node__&quot;&gt;通过傅里叶变换将时域数据转换到频域并进行模态分析&lt;/font&gt;&lt;font style=&quot;display: block;&quot; class=&quot;__Cici_translate_translated_inject_node__ __Cici_translate_need_wrapper__&quot;&gt;&lt;span&gt;通过傅里叶变换将时域数据转换到频域并进行模态分析&lt;/span&gt;&lt;/font&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="141.75" y="1057" width="331" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="jlvIRvkufFYWc-7_8W2d-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="jlvIRvkufFYWc-7_8W2d-3" target="jlvIRvkufFYWc-7_8W2d-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jlvIRvkufFYWc-7_8W2d-3" value="&lt;font face=&quot;Times New Roman&quot;&gt;无人机悬停采集初始视频V&lt;span style=&quot;font-size: 10px;&quot;&gt;&lt;sub&gt;1&lt;/sub&gt;&lt;/span&gt;&lt;font class=&quot;__Cici__translate__ __Cici_translate_similar_text_content__&quot;&gt;&lt;font style=&quot;display: none;&quot; class=&quot;__Cici_translate_origin_node__&quot;&gt;无人机悬停采集出事视频V&lt;span data-text-content=&quot;1&quot; style=&quot;font-size: 10px;&quot;&gt;&lt;sub&gt;1&lt;/sub&gt;&lt;/span&gt;&lt;/font&gt; &lt;font style=&quot;display: inline-block;&quot; class=&quot;__Cici_translate_translated_inject_node__&quot;&gt;&lt;span&gt;无人机悬停采集出事视频V1&lt;/span&gt;&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="233" y="29" width="144" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="jlvIRvkufFYWc-7_8W2d-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="jlvIRvkufFYWc-7_8W2d-5" target="jlvIRvkufFYWc-7_8W2d-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jlvIRvkufFYWc-7_8W2d-5" value="&lt;font face=&quot;Times New Roman&quot;&gt;在V&lt;sub&gt;1&lt;/sub&gt;中获取待测结构外的背景作为参考区域视频V&lt;sub&gt;2&lt;/sub&gt;&lt;font class=&quot;__Cici__translate__ __Cici_translate_similar_text_content__&quot;&gt;&lt;font style=&quot;display: none;&quot; class=&quot;__Cici_translate_origin_node__&quot;&gt;在V&lt;sub data-text-content=&quot;1&quot;&gt;1&lt;/sub&gt;中获取静止背景作为参考区域视频V&lt;sub data-text-content=&quot;2&quot;&gt;2&lt;/sub&gt;&lt;/font&gt; &lt;font style=&quot;display: inline-block;&quot; class=&quot;__Cici_translate_translated_inject_node__&quot;&gt;&lt;span&gt;在V1中获取静止背景作为参考区域视频V2&lt;/span&gt;&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="178" y="109" width="252" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="jlvIRvkufFYWc-7_8W2d-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="jlvIRvkufFYWc-7_8W2d-7" target="jlvIRvkufFYWc-7_8W2d-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jlvIRvkufFYWc-7_8W2d-7" value="&lt;font face=&quot;Times New Roman&quot;&gt;对视频V&lt;sub&gt;2&lt;/sub&gt;逐帧作为时间序列输入&lt;/font&gt;&lt;font class=&quot;__Cici__translate__ __Cici_translate_similar_text_content__&quot;&gt;&lt;font style=&quot;display: none;&quot; class=&quot;__Cici_translate_origin_node__&quot;&gt;将参考帧与第n&lt;/font&gt;&lt;font style=&quot;display: inline-block;&quot; class=&quot;__Cici_translate_translated_inject_node__&quot;&gt;&lt;span&gt;将参考帧与第n&lt;/span&gt;&lt;/font&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="210.5" y="218" width="189" height="47" as="geometry" />
+        </mxCell>
+        <mxCell id="jlvIRvkufFYWc-7_8W2d-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="jlvIRvkufFYWc-7_8W2d-9" target="jlvIRvkufFYWc-7_8W2d-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jlvIRvkufFYWc-7_8W2d-9" value="使用FlowFormer神经网络计算帧与帧之间图像的光流&lt;font class=&quot;__Cici__translate__ __Cici_translate_similar_text_content__&quot;&gt;&lt;font style=&quot;display: none;&quot; class=&quot;__Cici_translate_origin_node__&quot;&gt;使用FlowFormer&lt;/font&gt;&lt;font style=&quot;display: inline-block;&quot; class=&quot;__Cici_translate_translated_inject_node__&quot;&gt;&lt;span&gt;使用FlowFormer&lt;/span&gt;&lt;/font&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="175.75" y="307" width="256.5" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jlvIRvkufFYWc-7_8W2d-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="jlvIRvkufFYWc-7_8W2d-11" target="jlvIRvkufFYWc-7_8W2d-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jlvIRvkufFYWc-7_8W2d-11" value="通过得到的&lt;font class=&quot;__Cici__translate__&quot;&gt;&lt;font style=&quot;display: none;&quot; class=&quot;__Cici_translate_origin_node__&quot;&gt;ton&lt;/font&gt;&amp;nbsp;flo格式的光流数据计算目标整像素位移数据&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="176.75" y="407" width="255.5" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jlvIRvkufFYWc-7_8W2d-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="jlvIRvkufFYWc-7_8W2d-13" target="jlvIRvkufFYWc-7_8W2d-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jlvIRvkufFYWc-7_8W2d-13" value="&lt;font face=&quot;Times New Roman&quot;&gt;基于整像素的位移数据对视频V&lt;sub&gt;1&lt;/sub&gt;的每帧进行启发式图像平移变换保存为视频V&lt;sub&gt;3&lt;/sub&gt;&lt;/font&gt;&lt;font class=&quot;__Cici__translate__ __Cici_translate_similar_text_content__&quot;&gt;&lt;font style=&quot;display: none;&quot; class=&quot;__Cici_translate_origin_node__&quot;&gt;基于整像素的位移数据对视频帧进行启发式图像平移变换保存为视频&lt;/font&gt;&lt;font style=&quot;display: block;&quot; class=&quot;__Cici_translate_translated_inject_node__ __Cici_translate_need_wrapper__&quot;&gt;&lt;span&gt;基于整像素的位移数据对视频帧进行启发式图像平移变换保存为视频&lt;/span&gt;&lt;/font&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="176.75" y="499" width="257.5" height="72" as="geometry" />
+        </mxCell>
+        <mxCell id="jlvIRvkufFYWc-7_8W2d-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" target="jlvIRvkufFYWc-7_8W2d-18">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="307.25" y="772.0000000000002" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jlvIRvkufFYWc-7_8W2d-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="jlvIRvkufFYWc-7_8W2d-16">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="305.46153846153834" y="709.9999999999998" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jlvIRvkufFYWc-7_8W2d-16" value="&lt;br&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: &amp;quot;Times New Roman&amp;quot;; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;&quot;&gt;在V&lt;sub&gt;3&lt;/sub&gt;中获取待测结构外的背景作为参考区域&lt;font class=&quot;__Cici__translate__ __Cici_translate_similar_text_content__&quot;&gt;&lt;font style=&quot;display: none;&quot; class=&quot;__Cici_translate_origin_node__&quot;&gt;在V&lt;sub data-text-content=&quot;3&quot;&gt;3&lt;/sub&gt;中获取静止背景作为参考区域&lt;/font&gt;&lt;font style=&quot;display: inline-block;&quot; class=&quot;__Cici_translate_translated_inject_node__&quot;&gt;&lt;span&gt;在V3中获取静止背景作为参考区域&lt;/span&gt;&lt;/font&gt;&lt;/font&gt;&lt;/span&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="175.75" y="612" width="258.25" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jlvIRvkufFYWc-7_8W2d-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="jlvIRvkufFYWc-7_8W2d-18" target="jlvIRvkufFYWc-7_8W2d-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jlvIRvkufFYWc-7_8W2d-18" value="&lt;font face=&quot;Times New Roman&quot;&gt;使用基于&lt;font style=&quot;background-color: initial;&quot;&gt;可变分金字塔的运动放大的光流算法对V&lt;sub&gt;4&lt;/sub&gt;待测区域进行光流追&lt;/font&gt;&lt;/font&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;font face=&quot;rweN1SNauHQMGd4krrAq&quot;&gt;踪得到像素位移时程数&lt;/font&gt;据&lt;/span&gt;&lt;font class=&quot;__Cici__translate__ __Cici_translate_similar_text_content__&quot;&gt;&lt;font style=&quot;display: none;&quot; class=&quot;__Cici_translate_origin_node__&quot;&gt;&lt;font data-text-content=&quot;使用基于&quot; face=&quot;Times New Roman&quot;&gt;使用基于&lt;/font&gt;&lt;font data-text-content=&quot;可变分金字塔的运动放大的光流算法对V4待测区域进行光流追&quot; style=&quot;background-color: initial;&quot; face=&quot;M3rHPRTttsDQLHMKlIXt&quot;&gt;可变分金字塔的运动放大的光流算法对V4待测区域进行光流追&lt;/font&gt;&lt;span data-text-content=&quot;踪&quot; style=&quot;background-color: initial;&quot;&gt;踪&lt;/span&gt;&lt;/font&gt;&lt;font style=&quot;display: block;&quot; class=&quot;__Cici_translate_translated_inject_node__ __Cici_translate_need_wrapper__&quot;&gt;&lt;span&gt;使用基于可变分金字塔的运动放大的光流算法对V4待测区域进行光流追踪&lt;/span&gt;&lt;/font&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="182" y="820" width="252" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="jlvIRvkufFYWc-7_8W2d-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="jlvIRvkufFYWc-7_8W2d-20" target="jlvIRvkufFYWc-7_8W2d-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jlvIRvkufFYWc-7_8W2d-20" value="像素位移时程数据乘以比例因子转换为真实位移&lt;font class=&quot;__Cici__translate__ __Cici_translate_similar_text_content__&quot;&gt;&lt;font style=&quot;display: none;&quot; class=&quot;__Cici_translate_origin_node__&quot;&gt;像素&lt;/font&gt;&lt;font style=&quot;display: inline-block;&quot; class=&quot;__Cici_translate_translated_inject_node__&quot;&gt;&lt;span&gt;像素&lt;/span&gt;&lt;/font&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="197.25" y="953" width="220" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jlvIRvkufFYWc-7_8W2d-21" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;flipH=1;labelPosition=right;verticalLabelPosition=middle;align=left;verticalAlign=middle;size=0.5;" vertex="1" parent="1">
+          <mxGeometry x="510" y="47" width="20" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="jlvIRvkufFYWc-7_8W2d-22" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;flipH=1;labelPosition=right;verticalLabelPosition=middle;align=left;verticalAlign=middle;size=0.5;" vertex="1" parent="1">
+          <mxGeometry x="505" y="307" width="20" height="268" as="geometry" />
+        </mxCell>
+        <mxCell id="jlvIRvkufFYWc-7_8W2d-23" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;flipH=1;labelPosition=right;verticalLabelPosition=middle;align=left;verticalAlign=middle;size=0.5;" vertex="1" parent="1">
+          <mxGeometry x="503" y="615" width="20" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="jlvIRvkufFYWc-7_8W2d-24" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;flipH=1;labelPosition=right;verticalLabelPosition=middle;align=left;verticalAlign=middle;size=0.5;" vertex="1" parent="1">
+          <mxGeometry x="505" y="962" width="20" height="175" as="geometry" />
+        </mxCell>
+        <mxCell id="jlvIRvkufFYWc-7_8W2d-25" value="" style="shape=partialRectangle;whiteSpace=wrap;html=1;bottom=1;right=1;left=1;top=0;fillColor=none;routingCenterX=-0.5;rotation=90;" vertex="1" parent="1">
+          <mxGeometry x="53.87" y="337.62" width="313.5" height="186.25" as="geometry" />
+        </mxCell>
+        <mxCell id="jlvIRvkufFYWc-7_8W2d-26" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;数据采集与预处理&lt;/font&gt;&lt;font class=&quot;__Cici__translate__ __Cici_translate_similar_text_content__&quot;&gt;&lt;font style=&quot;display: none;&quot; class=&quot;__Cici_translate_origin_node__&quot;&gt;数据采集&lt;/font&gt;&lt;font style=&quot;display: inline-block;&quot; class=&quot;__Cici_translate_translated_inject_node__&quot;&gt;&lt;span&gt;数据采集&lt;/span&gt;&lt;/font&gt;&lt;/font&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="610" y="127.66" width="126.08" height="38.69" as="geometry" />
+        </mxCell>
+        <mxCell id="jlvIRvkufFYWc-7_8W2d-27" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;整像素大位移噪声消除&lt;/font&gt;&lt;font class=&quot;__Cici__translate__ __Cici_translate_similar_text_content__&quot;&gt;&lt;font style=&quot;display: none;&quot; class=&quot;__Cici_translate_origin_node__&quot;&gt;数据采集&lt;/font&gt;&lt;font style=&quot;display: inline-block;&quot; class=&quot;__Cici_translate_translated_inject_node__&quot;&gt;&lt;span&gt;数据采集&lt;/span&gt;&lt;/font&gt;&lt;/font&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="598" y="384" width="126.08" height="38.69" as="geometry" />
+        </mxCell>
+        <mxCell id="jlvIRvkufFYWc-7_8W2d-28" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;亚像素小位移噪声消除&lt;/font&gt;&lt;font class=&quot;__Cici__translate__ __Cici_translate_similar_text_content__&quot;&gt;&lt;font style=&quot;display: none;&quot; class=&quot;__Cici_translate_origin_node__&quot;&gt;数据采集&lt;/font&gt;&lt;font style=&quot;display: inline-block;&quot; class=&quot;__Cici_translate_translated_inject_node__&quot;&gt;&lt;span&gt;数据采集&lt;/span&gt;&lt;/font&gt;&lt;/font&gt;&lt;span style=&quot;color: rgba(0, 0, 0, 0); font-family: monospace; font-size: 0px; text-align: start; text-wrap: nowrap;&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22%26lt%3Bfont%20style%3D%26quot%3Bfont-size%3A%2015px%3B%26quot%3B%26gt%3B%E6%95%B0%E6%8D%AE%E9%87%87%E9%9B%86%26lt%3B%2Ffont%26gt%3B%26lt%3Bfont%20class%3D%26quot%3B__Cici__translate__%20__Cici_translate_similar_text_content__%26quot%3B%26gt%3B%26lt%3Bfont%20style%3D%26quot%3Bdisplay%3A%20none%3B%26quot%3B%20class%3D%26quot%3B__Cici_translate_origin_node__%26quot%3B%26gt%3B%E6%95%B0%E6%8D%AE%E9%87%87%E9%9B%86%26lt%3B%2Ffont%26gt%3B%20%26lt%3Bfont%20style%3D%26quot%3Bdisplay%3A%20inline-block%3B%26quot%3B%20class%3D%26quot%3B__Cici_translate_translated_inject_node__%26quot%3B%26gt%3B%26lt%3Bspan%26gt%3B%E6%95%B0%E6%8D%AE%E9%87%87%E9%9B%86%26lt%3B%2Fspan%26gt%3B%26lt%3B%2Ffont%26gt%3B%26lt%3B%2Ffont%26gt%3B%22%20style%3D%22text%3BstrokeColor%3Dnone%3Balign%3Dcenter%3BfillColor%3Dnone%3Bhtml%3D1%3BverticalAlign%3Dmiddle%3BwhiteSpace%3Dwrap%3Brounded%3D0%3B%22%20vertex%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%22610%22%20y%3D%22127.66%22%20width%3D%22126.08%22%20height%3D%2238.69%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="586" y="706" width="126.08" height="38.69" as="geometry" />
+        </mxCell>
+        <mxCell id="jlvIRvkufFYWc-7_8W2d-29" value="&lt;span style=&quot;font-size: 15px;&quot;&gt;光流估计和后处理&lt;font class=&quot;__Cici__translate__&quot;&gt;&lt;font style=&quot;display: none;&quot; class=&quot;__Cici_translate_origin_node__&quot;&gt;gua&lt;/font&gt;&amp;nbsp;&lt;/font&gt;&lt;/span&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="573" y="1028" width="126.08" height="38.69" as="geometry" />
+        </mxCell>
+        <mxCell id="jlvIRvkufFYWc-7_8W2d-30" value="&lt;font face=&quot;Times New Roman&quot;&gt;根据选取的参考区域对V&lt;sub style=&quot;&quot;&gt;3&lt;/sub&gt;进行光流补偿算法&lt;font class=&quot;__Cici__translate__ __Cici_translate_similar_text_content__&quot;&gt;&lt;font style=&quot;display: none;&quot; class=&quot;__Cici_translate_origin_node__&quot;&gt;根据选取的参考区域对V&lt;sub data-text-content=&quot;3&quot; style=&quot;&quot;&gt;3&lt;/sub&gt;进行光流补偿算法&lt;/font&gt; &lt;font style=&quot;display: inline-block;&quot; class=&quot;__Cici_translate_translated_inject_node__&quot;&gt;&lt;span&gt;根据选取的参考区域对V3进行光流补偿算法&lt;/span&gt;&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;&lt;div&gt;&lt;font face=&quot;cYyLVqvPSQjDSF9pOBt-&quot;&gt;得到消除相机运动的亚像素噪声的视频&lt;/font&gt;&lt;font face=&quot;Times New Roman&quot;&gt;V&lt;sub style=&quot;&quot;&gt;4&lt;/sub&gt;&lt;/font&gt;&lt;font class=&quot;__Cici__translate__ __Cici_translate_similar_text_content__&quot;&gt;&lt;font style=&quot;display: none;&quot; class=&quot;__Cici_translate_origin_node__&quot;&gt;&lt;font data-text-content=&quot;得到消除相机运动的亚像素噪声的视频&quot; face=&quot;cYyLVqvPSQjDSF9pOBt-&quot;&gt;得到消除相机运动的亚像素噪声的视频&lt;/font&gt;&lt;font data-text-content=&quot;V4&quot; face=&quot;Times New Roman&quot;&gt;V&lt;sub style=&quot;&quot;&gt;4&lt;/sub&gt;&lt;/font&gt;&lt;/font&gt; &lt;font style=&quot;display: inline-block;&quot; class=&quot;__Cici_translate_translated_inject_node__&quot;&gt;&lt;span&gt;得到消除相机运动的亚像素噪声的视频V4&lt;/span&gt;&lt;/font&gt;&lt;/font&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="180" y="712" width="253" height="62" as="geometry" />
         </mxCell>
       </root>
