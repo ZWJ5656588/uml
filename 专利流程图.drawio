@@ -246,6 +246,27 @@
         <mxCell id="0jjXZqNoflX68_QNyMlV-1" value="&lt;br&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: &amp;quot;Times New Roman&amp;quot;; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;&quot;&gt;在V&lt;sub&gt;3&lt;/sub&gt;中获取待测结构外的背景作为参考区域&lt;font class=&quot;__Cici__translate__ __Cici_translate_similar_text_content__&quot;&gt;&lt;font style=&quot;display: none;&quot; class=&quot;__Cici_translate_origin_node__&quot;&gt;在V&lt;sub data-text-content=&quot;3&quot;&gt;3&lt;/sub&gt;中获取静止背景作为参考区域&lt;/font&gt;&lt;font style=&quot;display: inline-block;&quot; class=&quot;__Cici_translate_translated_inject_node__&quot;&gt;&lt;span&gt;在V3中获取静止背景作为参考区域&lt;/span&gt;&lt;/font&gt;&lt;/font&gt;&lt;/span&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="124.13" y="500" width="258.25" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="skrdrgBYc7MMbVFA7zqQ-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0jjXZqNoflX68_QNyMlV-10" target="skrdrgBYc7MMbVFA7zqQ-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0jjXZqNoflX68_QNyMlV-10" value="根据选" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="193" y="604" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="skrdrgBYc7MMbVFA7zqQ-1" value="通过多个测点的数据进行傅里叶变换将时域数据转换到频域并进行模态分析&lt;font class=&quot;__Cici__translate__ __Cici_translate_similar_text_content__&quot;&gt;&lt;font style=&quot;display: none;&quot; class=&quot;__Cici_translate_origin_node__&quot;&gt;通过傅里叶变换将时域数据转换到频域并进行模态分析&lt;/font&gt;&lt;font style=&quot;display: block;&quot; class=&quot;__Cici_translate_translated_inject_node__ __Cici_translate_need_wrapper__&quot;&gt;&lt;span&gt;通过傅里叶变换将时域数据转换到频域并进行模态分析&lt;/span&gt;&lt;/font&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="87.75999999999999" y="954" width="331" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="skrdrgBYc7MMbVFA7zqQ-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="skrdrgBYc7MMbVFA7zqQ-2" target="skrdrgBYc7MMbVFA7zqQ-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="skrdrgBYc7MMbVFA7zqQ-2" value="&lt;font face=&quot;Times New Roman&quot;&gt;使用基于&lt;font style=&quot;background-color: initial;&quot;&gt;可变分金字塔的运动放大的光流算法对V&lt;sub&gt;4&lt;/sub&gt;待测区域进行光流追&lt;/font&gt;&lt;/font&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;font face=&quot;rweN1SNauHQMGd4krrAq&quot;&gt;踪得到像素位移时程数&lt;/font&gt;据&lt;/span&gt;&lt;font class=&quot;__Cici__translate__ __Cici_translate_similar_text_content__&quot;&gt;&lt;font style=&quot;display: none;&quot; class=&quot;__Cici_translate_origin_node__&quot;&gt;&lt;font data-text-content=&quot;使用基于&quot; face=&quot;Times New Roman&quot;&gt;使用基于&lt;/font&gt;&lt;font data-text-content=&quot;可变分金字塔的运动放大的光流算法对V4待测区域进行光流追&quot; style=&quot;background-color: initial;&quot; face=&quot;M3rHPRTttsDQLHMKlIXt&quot;&gt;可变分金字塔的运动放大的光流算法对V4待测区域进行光流追&lt;/font&gt;&lt;span data-text-content=&quot;踪&quot; style=&quot;background-color: initial;&quot;&gt;踪&lt;/span&gt;&lt;/font&gt;&lt;font style=&quot;display: block;&quot; class=&quot;__Cici_translate_translated_inject_node__ __Cici_translate_need_wrapper__&quot;&gt;&lt;span&gt;使用基于可变分金字塔的运动放大的光流算法对V4待测区域进行光流追踪&lt;/span&gt;&lt;/font&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="126.99999999999999" y="721" width="252" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="skrdrgBYc7MMbVFA7zqQ-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="skrdrgBYc7MMbVFA7zqQ-3" target="skrdrgBYc7MMbVFA7zqQ-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="skrdrgBYc7MMbVFA7zqQ-3" value="像素位移时程数据乘以比例因子转换为真实位移&lt;font class=&quot;__Cici__translate__ __Cici_translate_similar_text_content__&quot;&gt;&lt;font style=&quot;display: none;&quot; class=&quot;__Cici_translate_origin_node__&quot;&gt;像素&lt;/font&gt;&lt;font style=&quot;display: inline-block;&quot; class=&quot;__Cici_translate_translated_inject_node__&quot;&gt;&lt;span&gt;像素&lt;/span&gt;&lt;/font&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="143.26" y="850" width="220" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
