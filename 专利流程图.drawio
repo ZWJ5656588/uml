@@ -113,25 +113,25 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="jlvIRvkufFYWc-7_8W2d-3" value="&lt;font face=&quot;Times New Roman&quot;&gt;无人机悬停采集初始视频V&lt;span style=&quot;font-size: 10px;&quot;&gt;&lt;sub&gt;1&lt;/sub&gt;&lt;/span&gt;&lt;font class=&quot;__Cici__translate__ __Cici_translate_similar_text_content__&quot;&gt;&lt;font style=&quot;display: none;&quot; class=&quot;__Cici_translate_origin_node__&quot;&gt;无人机悬停采集初始视频V&lt;span data-text-content=&quot;1&quot; style=&quot;font-size: 10px;&quot;&gt;&lt;sub&gt;1&lt;/sub&gt;&lt;/span&gt;&lt;/font&gt; &lt;font style=&quot;display: inline-block;&quot; class=&quot;__Cici_translate_translated_inject_node__&quot;&gt;&lt;span&gt;无人机悬停采集初始视频V1&lt;/span&gt;&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="233" y="29" width="144" height="48" as="geometry" />
+          <mxGeometry x="232.88" y="29" width="144" height="48" as="geometry" />
         </mxCell>
         <mxCell id="jlvIRvkufFYWc-7_8W2d-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="jlvIRvkufFYWc-7_8W2d-5" target="jlvIRvkufFYWc-7_8W2d-7">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="jlvIRvkufFYWc-7_8W2d-5" value="&lt;font face=&quot;Times New Roman&quot;&gt;在V&lt;sub&gt;1&lt;/sub&gt;中获取待测结构外的背景作为参考区域视频V&lt;sub&gt;2&lt;/sub&gt;&lt;font class=&quot;__Cici__translate__ __Cici_translate_similar_text_content__&quot;&gt;&lt;font style=&quot;display: none;&quot; class=&quot;__Cici_translate_origin_node__&quot;&gt;在V&lt;sub data-text-content=&quot;1&quot;&gt;1&lt;/sub&gt;中获取静止背景作为参考区域视频V&lt;sub data-text-content=&quot;2&quot;&gt;2&lt;/sub&gt;&lt;/font&gt; &lt;font style=&quot;display: inline-block;&quot; class=&quot;__Cici_translate_translated_inject_node__&quot;&gt;&lt;span&gt;在V1中获取静止背景作为参考区域视频V2&lt;/span&gt;&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="178" y="109" width="252" height="70" as="geometry" />
+          <mxGeometry x="178" y="106" width="252" height="70" as="geometry" />
         </mxCell>
         <mxCell id="jlvIRvkufFYWc-7_8W2d-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="jlvIRvkufFYWc-7_8W2d-7" target="jlvIRvkufFYWc-7_8W2d-9">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="jlvIRvkufFYWc-7_8W2d-7" value="&lt;font face=&quot;Times New Roman&quot;&gt;对视频V&lt;sub&gt;2&lt;/sub&gt;逐帧作为时间序列输入&lt;/font&gt;&lt;font class=&quot;__Cici__translate__ __Cici_translate_similar_text_content__&quot;&gt;&lt;font style=&quot;display: none;&quot; class=&quot;__Cici_translate_origin_node__&quot;&gt;将参考帧与第n&lt;/font&gt;&lt;font style=&quot;display: inline-block;&quot; class=&quot;__Cici_translate_translated_inject_node__&quot;&gt;&lt;span&gt;将参考帧与第n&lt;/span&gt;&lt;/font&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="210.5" y="218" width="189" height="47" as="geometry" />
+          <mxGeometry x="210.38" y="217" width="189" height="47" as="geometry" />
         </mxCell>
         <mxCell id="jlvIRvkufFYWc-7_8W2d-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="jlvIRvkufFYWc-7_8W2d-9" target="jlvIRvkufFYWc-7_8W2d-11">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="jlvIRvkufFYWc-7_8W2d-9" value="使用FlowFormer神经网络计算帧与帧之间图像的光流&lt;font class=&quot;__Cici__translate__ __Cici_translate_similar_text_content__&quot;&gt;&lt;font style=&quot;display: none;&quot; class=&quot;__Cici_translate_origin_node__&quot;&gt;使用FlowFormer&lt;/font&gt;&lt;font style=&quot;display: inline-block;&quot; class=&quot;__Cici_translate_translated_inject_node__&quot;&gt;&lt;span&gt;使用FlowFormer&lt;/span&gt;&lt;/font&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="175.75" y="307" width="256.5" height="60" as="geometry" />
+          <mxGeometry x="176.5" y="307" width="256.5" height="60" as="geometry" />
         </mxCell>
         <mxCell id="jlvIRvkufFYWc-7_8W2d-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="jlvIRvkufFYWc-7_8W2d-11" target="jlvIRvkufFYWc-7_8W2d-13">
           <mxGeometry relative="1" as="geometry" />
@@ -143,7 +143,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="jlvIRvkufFYWc-7_8W2d-13" value="&lt;font face=&quot;Times New Roman&quot;&gt;基于整像素的位移数据对视频V&lt;sub&gt;1&lt;/sub&gt;的每帧进行启发式图像平移变换保存为视频V&lt;sub&gt;3&lt;/sub&gt;&lt;/font&gt;&lt;font class=&quot;__Cici__translate__ __Cici_translate_similar_text_content__&quot;&gt;&lt;font style=&quot;display: none;&quot; class=&quot;__Cici_translate_origin_node__&quot;&gt;基于整像素的位移数据对视频帧进行启发式图像平移变换保存为视频&lt;/font&gt;&lt;font style=&quot;display: block;&quot; class=&quot;__Cici_translate_translated_inject_node__ __Cici_translate_need_wrapper__&quot;&gt;&lt;span&gt;基于整像素的位移数据对视频帧进行启发式图像平移变换保存为视频&lt;/span&gt;&lt;/font&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="176.75" y="499" width="257.5" height="72" as="geometry" />
+          <mxGeometry x="175.25" y="501" width="257.5" height="72" as="geometry" />
         </mxCell>
         <mxCell id="jlvIRvkufFYWc-7_8W2d-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" target="jlvIRvkufFYWc-7_8W2d-18">
           <mxGeometry relative="1" as="geometry">
