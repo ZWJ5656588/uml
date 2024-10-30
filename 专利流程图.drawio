@@ -63,7 +63,7 @@
         <mxCell id="A2SrDBhCzwY3KyNIF4se-75" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="A2SrDBhCzwY3KyNIF4se-14" target="A2SrDBhCzwY3KyNIF4se-15" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="A2SrDBhCzwY3KyNIF4se-14" value="像素位移时程数据乘以比例因子转换为真实位移&lt;font class=&quot;__Cici__translate__ __Cici_translate_similar_text_content__&quot;&gt;&lt;font style=&quot;display: none;&quot; class=&quot;__Cici_translate_origin_node__&quot;&gt;像素&lt;/font&gt;&lt;font style=&quot;display: inline-block;&quot; class=&quot;__Cici_translate_translated_inject_node__&quot;&gt;&lt;span&gt;像素&lt;/span&gt;&lt;/font&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="A2SrDBhCzwY3KyNIF4se-14" value="像素位移时程数据乘以比例因子转换为真实位移" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="198.25" y="955" width="220" height="60" as="geometry" />
         </mxCell>
         <mxCell id="A2SrDBhCzwY3KyNIF4se-78" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;flipH=1;labelPosition=right;verticalLabelPosition=middle;align=left;verticalAlign=middle;size=0.5;" parent="1" vertex="1">
