@@ -4,7 +4,7 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="A2SrDBhCzwY3KyNIF4se-15" value="通过多个测点的数据进行傅里叶变换将时域数据转换到频域并进行模态分析" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="A2SrDBhCzwY3KyNIF4se-15" value="&lt;font face=&quot;Times New Roman&quot;&gt;通过多个测点的数据进行快速傅里叶变换（FFT）将时域数据转换到频域并使用频域分解法（FDD）进行模态分析&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="142.75" y="1055" width="331" height="80" as="geometry" />
         </mxCell>
         <mxCell id="uyBw8vGbBdSsr35tJZg--3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="A2SrDBhCzwY3KyNIF4se-1" target="A2SrDBhCzwY3KyNIF4se-3" edge="1">
